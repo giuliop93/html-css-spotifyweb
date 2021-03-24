@@ -40,12 +40,21 @@
 }
 
 aside {
+    background-color: black;
     width: 250px;
     float: left;
 }
 
 aside img {
     width: 80%;
+}
+
+.visible-xs {
+    display: none;
+}
+
+.lil-tit {
+    color: lightslategray;
 }
 
 /**smartwatch*/
@@ -61,6 +70,10 @@ aside img {
 
     .hidden-xs {
         display: none;
+    }
+
+    .visible-xs {
+        display: inline-block;
     }
 }
 
