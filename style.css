@@ -66,6 +66,25 @@ aside {
     color: lightslategray;
 }
 
+.navbar {
+    justify-content: flex-end;
+}
+
+.list-style-type-none {
+    text-align: center;
+    list-style-type: none;
+}
+
+li {
+    padding-top: 10px;
+    float: left;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+}
+
 /**smartwatch*/
 @media screen and (max-width: 380px) {
 
