@@ -12,6 +12,8 @@
 
 .container-right {
     float: left;
+    height: 100%;
+    overflow: scroll;
     width: calc(100% - 250px);
 }
 
@@ -36,6 +38,10 @@
     text-transform: uppercase;
 }
 
+.logo {
+    height: 55px;
+}
+
 .bg-black {
     background-color: black;
 }
@@ -49,6 +55,20 @@ aside {
     width: 250px;
     float: left;
     height: calc(100vh - 80px);
+    padding: 10px;
+}
+
+.box-2 {
+    height: 90px;
+}
+
+.playlist {
+    overflow: scroll;
+    height: calc(100% - 235px);
+}
+
+.box-4 {
+    height: 90px;
 }
 
 .none-xs {
@@ -61,12 +81,11 @@ aside {
 
 .lil-pic {
     width: 30px;
-    margin: 10px 0 0 15px;
-    vertical-align: text-bottom;
+    vertical-align: middle;
 }
 
 .lil-tit {
-    padding: 10px;
+    padding: 10px 0;
     color: gray;
 }
 
@@ -80,10 +99,6 @@ aside {
     list-style-type: none;
 }
 
-.margin-5 {
-    margin: 5px;
-}
-
 .crea-playlist {
     min-height: 30px;
     min-width: 30px;
@@ -94,8 +109,6 @@ aside {
     display: inline-block;
     line-height: 150%;
     vertical-align: middle;
-    margin-left: 15px;
-
 }
 
 li {
