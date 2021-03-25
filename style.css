@@ -73,13 +73,14 @@ aside {
 }
 
 .list-style-type-none {
+    font-size: small;
     text-align: center;
     list-style-type: none;
 }
 
 li {
     padding-top: 10px;
-    float: left;
+    display: inline-block;
 }
 
 a {
