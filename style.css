@@ -121,6 +121,10 @@ a {
     color: white;
 }
 
+.gray {
+    color: gray;
+}
+
 .row {
     width: calc(100% - 20px)
     margin: auto;
