@@ -234,21 +234,21 @@ h6 {
 /* smartphone */
 @media screen and (min-width: 381px) and (max-width: 767px) {
     aside {
-        border: yellow 1px solid;
+        /* border: yellow 1px solid; */
     }
 }
 
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     aside {
-        border: blue 1px solid;
+        /* border: blue 1px solid; */
     }
 }
 
 /* desktop */
 @media screen and (min-width: 993px) {
     aside {
-        border: green 1px solid;
+        /* border: green 1px solid; */
     }
 }
 
