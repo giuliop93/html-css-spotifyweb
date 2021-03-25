@@ -116,6 +116,8 @@ aside {
     display: inline-block;
     line-height: 150%;
     vertical-align: middle;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 li {
@@ -159,6 +161,14 @@ a {
     width: 150px;
     vertical-align: top;
     margin-top: 15px;
+}
+
+h5 {
+    margin: 10px;
+}
+
+h6 {
+    margin: 8px 0;
 }
 
 .album img {
