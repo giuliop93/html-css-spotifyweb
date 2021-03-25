@@ -109,12 +109,30 @@ a {
     text-decoration: none;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .vertical-middle {
     vertical-align: super;
 }
 
 .white {
     color: white;
+}
+
+.row {
+    width: calc(100% - 20px)
+    margin: auto;
+}
+
+.album {
+    width: calc((100% / 6) - 20px);
+}
+
+.album img {
+    width: calc(100% - 20px);
+    margin: auto;
 }
 
 .sinister {
