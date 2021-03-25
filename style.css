@@ -51,7 +51,7 @@ aside {
     height: calc(100vh - 80px);
 }
 
-.hidden-xs {
+.none-xs {
     width: 80%;
 }
 
@@ -61,6 +61,8 @@ aside {
 
 .lil-pic {
     width: 30px;
+    margin: 10px 0 0 15px;
+    vertical-align: text-bottom;
 }
 
 .lil-tit {
@@ -78,6 +80,24 @@ aside {
     list-style-type: none;
 }
 
+.margin-5 {
+    margin: 5px;
+}
+
+.crea-playlist {
+    min-height: 30px;
+    min-width: 30px;
+    background-color: gray;
+    color: black;
+    font-size: larger;
+    text-align: center;
+    display: inline-block;
+    line-height: 150%;
+    vertical-align: middle;
+    margin-left: 15px;
+
+}
+
 li {
     padding-top: 10px;
     display: inline-block;
@@ -89,6 +109,31 @@ a {
     text-decoration: none;
 }
 
+.vertical-middle {
+    vertical-align: super;
+}
+
+.white {
+    color: white;
+}
+
+.sinister {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.sinister-img {
+    width: 100%;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.folder {
+    margin-left: 10px;
+}
 /**smartwatch*/
 @media screen and (max-width: 380px) {
 
