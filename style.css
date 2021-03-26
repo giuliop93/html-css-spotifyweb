@@ -57,7 +57,7 @@ aside {
 
 .box-3 {
     overflow: auto;
-    height: calc(100% - 235px);
+    height: calc(100% - 255px);
 }
 
 .box-4 {
@@ -139,6 +139,7 @@ a {
 
 .login-icon {
     margin-top: 5px;
+    margin-right: 5px;
     width: 20px;
 }
 
@@ -163,7 +164,7 @@ a {
     margin: 15px 0;
 }
 
-.playlist {
+.boldsmaller {
     font-weight: bold;
     font-size: smaller;
 }
@@ -205,8 +206,6 @@ h6 {
     margin-left: 10px;
 }
 
-.player
-
 .invert {
     font-size: larger;
 }
@@ -246,10 +245,19 @@ h6 {
     padding: 0 20px 0 20px;
 }
 
+.time-recording {
+    width: 200px;
+    border-bottom: 3px solid white;
+}
+
+.mr {
+    font-size: small;
+}
+
 .volume-container {
     height: 20px;
     width: 150px;
-    display: inline-block;
+    display: flex;
 }
 
 .volume {
