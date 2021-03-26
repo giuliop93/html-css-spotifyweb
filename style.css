@@ -32,7 +32,7 @@
     color: white;
     border: 1px solid white;
     border-radius: 50px;
-    padding: 15px;
+    padding: 8px;
     float: right;
     margin: 15px;
     text-transform: uppercase;
@@ -134,16 +134,12 @@ a {
 }
 
 .login {
-    height: 20px;
-    width: 20px;
-    display: inline-block;
-    border-radius: 50%;
-    margin-right: 10px;
+    
 }
 
 .login-icon {
     margin-top: 5px;
-    width: 100%;
+    width: 20px;
 }
 
 .text-center {
@@ -246,25 +242,24 @@ h6 {
     margin-right: 40px;;
 }
 
-.player-top {
-    fl
-}
-
-
 .centerplay > i {
     padding: 0 20px 0 20px;
 }
 
 .volume-container {
-    flex-grow: 1;
     height: 20px;
-    color: red;
+    width: 150px;
+    display: inline-block;
 }
 
 .volume {
-    color: blue;
+    border-radius: 5px;
     width: 100%;
-    border-top: 10px solid gray;
+    border-bottom: 5px solid gray;
+}
+
+.player-right > i {
+    padding: 0 5px;
 }
 
 /**smartwatch*/
