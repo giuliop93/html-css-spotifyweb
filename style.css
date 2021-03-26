@@ -47,10 +47,6 @@
     background-color: black;
 }
 
-.bg-darkgray {
-    background-color: #1d1f27;
-}
-
 aside {
     background-color: black;
     width: 250px;
@@ -235,6 +231,7 @@ h6 {
 }
 
 .player {
+    display: flex;
     position: fixed;
     bottom: 0;
     width: 100%;

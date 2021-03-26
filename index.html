@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="noscroll">    
+    <div class="noscroll">
         <aside>
             <div class="logo bg-black">
                 <img class="logo none-xs" src="img/logo.svg" alt="">
@@ -20,13 +23,16 @@
                     <img class="lil-pic" src="img/home.svg" alt=""><span class="lil-tit none-xs">Home</span>
                 </div>
                 <div class="cerca">
-                    <img class="lil-pic" src="img/search.svg" alt=""><span class="lil-tit none-xs">Cerca</span></div>
+                    <img class="lil-pic" src="img/search.svg" alt=""><span class="lil-tit none-xs">Cerca</span>
+                </div>
                 <div class="libreria">
-                    <img class="lil-pic" src="img/libreria.svg" alt=""><span class="lil-tit none-xs">La tua libreria</span></div><br>
+                    <img class="lil-pic" src="img/libreria.svg" alt=""><span class="lil-tit none-xs">La tua
+                        libreria</span>
+                </div><br>
             </div>
 
             <div class="box-3">
-                <div class="playlist white smaller none-xs">PLAYLIST</div><br>
+                <div class="playlist white smaller none-xs block">PLAYLIST</div>
                 <div class="crea-playlist none-xs">+</div><span class="lil-tit none-xs">Crea playlist</span>
                 <div class="lil-tit none-xs block">Nome-playlist</div>
                 <div class="lil-tit none-xs block">Nome-playlist</div>
@@ -40,30 +46,30 @@
             <div class="box-4 gray">
                 <div class="installa"><span class="download ">&#x2193;</span> Installa app</div>
                 <div class="login">
-                <img class="login-icon" src="img/img-login.png" alt="">
+                    <img class="login-icon" src="img/img-login.png" alt="">
                 </div><span class="white playlist none-xs">John Doe</span>
             </div>
-            
+
         </aside>
 
         <div class="container-right">
-            
-                <div class="container-up clearfix">
-                    <a class="upgrade" href="#">effettua l'upgrade</a>
+
+            <div class="container-up clearfix">
+                <a class="upgrade" href="#">effettua l'upgrade</a>
+            </div>
+            <div class="bg-darkgray gray">
+                <div class="navbar">
+                    <ul class="list-style-type-none">
+                        <li><a href="#">IN EVIDENZA</a></li>
+                        <li><a href="#">PODCAST</a></li>
+                        <li><a href="#">CLASSIFICHE</a></li>
+                        <li><a href="#">GENERI E MOOD</a></li>
+                        <li><a href="#">NUOVE USCITE</a></li>
+                        <li><a href="#">SCOPRI</a></li>
+                    </ul>
                 </div>
-                <div class="bg-darkgray gray">
-                    <div class="navbar">
-                        <ul class="list-style-type-none">
-                            <li><a href="#">IN EVIDENZA</a></li>
-                            <li><a href="#">PODCAST</a></li>
-                            <li><a href="#">CLASSIFICHE</a></li>
-                            <li><a href="#">GENERI E MOOD</a></li>
-                            <li><a href="#">NUOVE USCITE</a></li>
-                            <li><a href="#">SCOPRI</a></li>
-                        </ul>
-                    </div>
-                </div>
-            
+            </div>
+
             <main>
                 <div class="row recently-played">
                     <h3 class="white">Recently played</h3>
@@ -99,7 +105,7 @@
                     </div>
 
                 </div>
-                <div class="row Doe"> 
+                <div class="row Doe">
                     <h3 class="white">Creato per John Doe</h3>
                     <h6 class="gray">Più ascolti, più accurati saranno i suggerimenti.</h6>
                     <div class="album inline-block text-center">
@@ -128,34 +134,38 @@
 
 
     <div class="player">
-         <div class="player-left">
+        <div class="player-left">
             <div class="sinister">
                 <img class="sinister-img" src="img/sinister.jpeg" alt="">
             </div>
-            <div class="inline-block" >
+            <div class="inline-block">
                 <p><a class="white" href="#">Sinister</a></p>
                 <p><a href="#">Brano nome</a>
             </div>
             <div class="inline-block vertical-middle">
-                &#9825; 
+                &#9825;
             </div>
             <div class="inline-block vertical-middle folder">
                 &#128448;
             </div>
         </div>
 
-            <div class="player-center-top">
-                <div class="player text-center">
-                    <div class="player-top">
+        <div class="player-center-top">
+            <div class="text-center">
+                <div class="player-top">
                     <span class="invert white">&#x2928;</span>
-                    <span class="capsule"></span><span class="rewind"></span>                    
+                    <span>
+                        <i class="fa fa-step-backward" aria-hidden="true"></i>
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        <i class="fa fa-step-forward" aria-hidden="true"></i>
+
+                    </span>
                 </div>
-                
             </div>
 
             <div class="player-center-bottom text-center">
                 <small class="mr-5">0:25</small>
-                
+
                 <span id=playing-bar></span>
                 <small></small>
             </div>
@@ -163,9 +173,10 @@
         </div>
 
         <div id="player-right">
-           
+
         </div>
     </div>
-        
+
 </body>
+
 </html>
