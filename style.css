@@ -251,6 +251,22 @@ h6 {
 }
 
 
+.centerplay > i {
+    padding: 0 20px 0 20px;
+}
+
+.volume-container {
+    flex-grow: 1;
+    height: 20px;
+    color: red;
+}
+
+.volume {
+    color: blue;
+    width: 100%;
+    border-top: 10px solid gray;
+}
+
 /**smartwatch*/
 @media screen and (max-width: 380px) {
 
