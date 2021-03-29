@@ -148,9 +148,13 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: white;
+}
+
 .underline:hover {
     padding: 5px;
-    border-bottom: limegreen 1px solid;
+    border-bottom: lightgreen 1px solid;
 }
 
 .underline:hover > a {
@@ -206,6 +210,18 @@ a {
     width: 200px;
     vertical-align: top;
     margin-top: 15px;
+}
+
+.cover {
+    /* height: 180px;
+    width: 180px; */
+    background-color: black;
+    opacity: 0.5;
+    display: none;
+}
+
+.album:hover .cover {
+    display: inline-block;
 }
 
 h5 {
@@ -356,6 +372,8 @@ h6 {
 .lil-tit:hover {
     color: white;
 }
+
+
 
 /**smartwatch*/
 @media screen and (max-width: 380px) {
