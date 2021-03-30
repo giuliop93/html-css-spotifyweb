@@ -27,17 +27,6 @@
     clear: both;
 }
 
-.upgrade {
-    font-size: small;
-    text-decoration: none;
-    color: white;
-    border: 1px solid white;
-    border-radius: 50px;
-    padding: 8px;
-    float: right;
-    margin: 15px;
-    text-transform: uppercase;
-}
 
 .upgrade:hover {
     font-size: medium;
@@ -101,11 +90,20 @@ aside {
 .lil-pic {
     width: 30px;
     vertical-align: middle;
+    opacity: 0.8;
+}
+
+.lil-pic:hover {
+    opacity: 1;
 }
 
 .lil-tit {
     padding: 10px 0;
-    color: gray;
+    color: white;
+}
+
+.trio {
+    padding: 10px 0 0 10px;
 }
 
 .download {
@@ -123,18 +121,19 @@ aside {
     list-style-type: none;
 }
 
-.crea-playlist {
-    min-height: 30px;
-    min-width: 30px;
-    background-color: gray;
+.plus {
+    width: 35px;
+    background-color: white;
     color: black;
     font-size: xx-large;
     font-weight: bolder;
     text-align: center;
     display: inline-block;
-    line-height: 80%;
     margin-right: 10px;
-    margin-top: 10px;
+}
+
+.plus:hover {
+    opacity: 1;
 }
 
 li {
@@ -142,14 +141,28 @@ li {
     display: inline-block;
 }
 
+.upgrade {
+    opacity: 1;
+    font-size: small;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 8px;
+    float: right;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
 a {
-    color: gray;
+    opacity: 0.5;
+    color: white;
     padding: 10px;
     text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    opacity: 1;
 }
 
 .underline:hover {
@@ -207,7 +220,7 @@ a:hover {
 }
 
 .album {
-    width: 200px;
+    width: calc((100% / 6) - 4px);
     vertical-align: top;
     margin-top: 15px;
 }
@@ -305,6 +318,7 @@ h6 {
 }
 
 .player-center {
+    flex-basis: 300px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -331,15 +345,7 @@ h6 {
     padding: 0 20px 0 20px;
 }
 
-@media screen and (max-width: 768px) {
-    .centerplay i {
-        padding: 0 5px;
-    }
-    
-    .player-right > i {
-        padding: 0;
-    }
-}
+
 
 .progress-bar {
     margin: 0 10px;
@@ -370,7 +376,7 @@ h6 {
 }
 
 .lil-tit:hover {
-    color: white;
+    opacity: 1;
 }
 
 
@@ -395,26 +401,39 @@ h6 {
     }
 }
 
-/* smartphone */
-@media screen and (min-width: 381px) and (max-width: 767px) {
-    aside {
-        /* border: yellow 1px solid; */
-    }
-}
+
 
 /* tablet */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    aside {
-        /* border: blue 1px solid; */
+@media screen and (max-width: 768px) {
+    .centerplay i {
+        padding: 0 5px;
     }
-}
+    
+    .player-right > i {
+        padding: 0;
+    }
 
-/* desktop */
-@media screen and (min-width: 993px) {
-    aside {
-        /* border: green 1px solid; */
+    .album {
+        width: calc(100% / 4) - 4px;
+    }
+
+}@media screen and (min-width: 768px) and (max-width: 992px) {
+    .album {
+        width: calc((100% / 4) - 4px);
     }
 }
+/* smartphone */
+@media screen and (min-width: 381px) and (max-width: 767px) {
+    .album {
+    width: calc(100% / 2) - 4px;
+    }
+}
+/* desktop */
+/* @media screen and (min-width: 993px) {
+    .album {
+        width: calc((100% / 4) - 4px);
+    }
+} */
 
 
 
