@@ -215,6 +215,7 @@ a:hover {
 }
 
 .boldsmaller {
+    margin-left: 10px;
     font-weight: bold;
     font-size: smaller;
 }
