@@ -229,13 +229,11 @@ a:hover {
 .cover {
     /* height: 180px;
     width: 180px; */
-    background-color: black;
-    opacity: 0.5;
-    display: none;
+    opacity: 1;
 }
 
 .album:hover .cover {
-    display: inline-block;
+    opacity: 0.5;
 }
 
 h5 {
