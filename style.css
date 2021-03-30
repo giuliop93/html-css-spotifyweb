@@ -227,13 +227,29 @@ a:hover {
 }
 
 .cover {
-    /* height: 180px;
-    width: 180px; */
+    position: relative;
     opacity: 1;
+}
+
+.play-none {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid white;
 }
 
 .album:hover .cover {
     opacity: 0.5;
+}
+
+.album:hover .play-none {
+    display: inline-block;
 }
 
 h5 {
